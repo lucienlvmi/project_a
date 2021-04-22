@@ -1,0 +1,31 @@
+//same as postman
+GET http://localhost:3000/subscribers/
+
+
+###
+
+
+GET http://localhost:3000/subscribers/12
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type:application/json
+
+{
+    "name": "Amazon",
+    "subscribedToChannel": "WEB"
+
+}
+
+###
+DELETE http://localhost:3000/subscribers/6080fb361a3931214498c428
+
+###
+
+PATCH http://localhost:3000/subscribers/608105a88d54fb7558bc5c40
+Content-Type: application/json
+
+{
+   "name": "alex" 
+}

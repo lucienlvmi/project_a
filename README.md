@@ -1,4 +1,4 @@
-# project_a
+# project_a - Lessons - build rest api, node, express and mongodb
 ```
 npm init ///package.json
 npm i express mongoose /// 
